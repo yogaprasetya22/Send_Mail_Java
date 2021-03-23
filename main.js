@@ -5,8 +5,8 @@ function send() {
     Password: "yogaprasetya3021",
     To: "jagres3211@gmail.com",
     From: document.getElementById("email").value,
-    Subject: document.querySelector("#name").value + "  Mengirim anda pesan",
-    Body: "PESAN = " + document.getElementById("message").value,
+    Subject: document.querySelector("#name").value + " mengirim anda pesan",
+    Body: document.getElementById("message").value,
   }).then(function (message) {
     Swal.fire({
       title: document.getElementById("name").value,
