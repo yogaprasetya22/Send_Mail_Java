@@ -7,7 +7,6 @@
 body {
     font-family: Pangolin, sans-serif;
     font-size  : 20px;
-    height: 200em;
 }
 
 .nav::before {
